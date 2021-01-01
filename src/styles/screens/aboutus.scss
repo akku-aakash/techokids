@@ -1,0 +1,321 @@
+.aboutus__page {
+  color: #000000;
+  .about__us {
+    background-color: #d7eefd;
+    background-image: url("../../images/about_us/background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 60%;
+  }
+
+  .technokids__description {
+    h5 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin: 40px 0;
+      text-align: center;
+
+      @media only screen and (max-width: 425px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    background-color: #d7eefd;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 15%;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+
+    @media only screen and (max-width: 425px) {
+      padding: 5%;
+      padding-bottom: 70%;
+    }
+
+    p {
+      text-align: center;
+
+      @media only screen and (max-width: 425px) {
+        font-size: 12px;
+      }
+    }
+
+    .our__belief {
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1% 5%;
+      background-color: #fff;
+      color: #000000;
+      position: absolute;
+      box-shadow: 2px 2px 5px 4px #b0c2cd;
+      bottom: -60%;
+      border-radius: 70px;
+      margin: 0 6%;
+
+      font-size: 18px;
+      font-weight: 500;
+
+      @media only screen and (max-width: 425px) {
+        padding: 0 15px;
+        width: 95%;
+        margin: auto;
+        border-radius: 40px;
+        bottom: -35%;
+      }
+
+      .title {
+        font-size: 2.2rem;
+        margin: 40px 0;
+
+        @media only screen and (max-width: 425px) {
+          font-size: 1.5rem;
+          margin: 20px 0;
+        }
+      }
+
+      p {
+        text-align: center;
+        margin-bottom: 25px;
+
+        @media only screen and (max-width: 425px) {
+          margin-bottom: 15px;
+        }
+      }
+
+      .misson__vision {
+        display: flex;
+        justify-content: space-around;
+
+        @media only screen and (max-width: 425px) {
+          flex-wrap: wrap;
+          align-items: center;
+        }
+
+        .mission__section,
+        .vision__section {
+          display: flex;
+          align-items: center;
+
+          @media only screen and (max-width: 425px) {
+            padding: 4%;
+          }
+
+          img {
+            height: 55%;
+
+            @media only screen and (max-width: 425px) {
+              width: 30%;
+            }
+          }
+        }
+
+        .mission__description,
+        .vision__description {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
+          .header {
+            font-size: 2.2rem;
+            margin: 0;
+
+            @media only screen and (max-width: 425px) {
+              font-size: 1.2rem;
+            }
+          }
+
+          .desc {
+            padding-right: 11%;
+            font-size: 18px;
+            @media only screen and (max-width: 425px) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .our__team {
+    background-color: #e5e5e5;
+    background-image: url("../../images/about_us/background_recharge.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 80%;
+    position: relative;
+
+    @media only screen and (max-width: 425px) {
+      padding-top: 150%;
+    }
+
+    .slogan {
+      margin: 0;
+      position: absolute;
+      top: 58%;
+      left: 30%;
+      text-align: center;
+
+      @media only screen and (max-width: 425px) {
+        left: 10%;
+      }
+
+      .our__team-battery {
+        font-size: 2.4rem;
+        margin: 0;
+        font-weight: 500;
+        @media only screen and (max-width: 425px) {
+          font-size: 1rem;
+        }
+      }
+
+      .our__team-recharge {
+        font-size: 2.4rem;
+        font-weight: 800;
+
+        @media only screen and (max-width: 425px) {
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    .robot {
+      position: absolute;
+      bottom: -3%;
+      right: 7%;
+      height: 36%;
+
+      @media only screen and (max-width: 425px) {
+        bottom: -2%;
+        right: 5%;
+        height: 31%;
+      }
+    }
+
+    .battery {
+      position: absolute;
+      bottom: -10%;
+      left: 45%;
+      height: 20%;
+      z-index: 1;
+
+      @media only screen and (max-width: 425px) {
+        bottom: -6%;
+        left: 22%;
+        height: 20%;
+      }
+    }
+  }
+
+  .team_members {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    justify-content: space-evenly;
+    padding-top: 20%;
+
+    @media only screen and (max-width: 425px) {
+      margin: 10px;
+    }
+
+    .left__section,
+    .right__section {
+      color: #fff;
+      flex-wrap: wrap;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+
+      @media only screen and (max-width: 425px) {
+        width: 100%;
+      }
+
+      .memeber__profile {
+        z-index: 1;
+        position: relative;
+
+        @media only screen and (max-width: 425px) {
+          font-size: 14px;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          img {
+            width: 95%;
+          }
+        }
+
+        .profile__pic {
+          position: absolute;
+          top: -8%;
+          left: 0;
+          height: 50%;
+
+          @media only screen and (max-width: 425px) {
+            width: 30%;
+          }
+        }
+      }
+
+      .title {
+        position: absolute;
+        top: 23%;
+        left: 36%;
+
+        h5 {
+          font-size: 23px;
+          margin: 0;
+
+          @media only screen and (max-width: 425px) {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .description {
+        left: 8%;
+        position: absolute;
+        top: 27%;
+        padding: 10%;
+      }
+    }
+
+    .right__section {
+      padding-top: 10%;
+    }
+
+    .connector__left,
+    .connector__right {
+      position: absolute;
+      top: -8%;
+
+      @media only screen and (max-width: 425px) {
+        width: 60%;
+      }
+    }
+
+    .connector__left {
+      left: -11%;
+      top: -203px;
+
+      @media only screen and (max-width: 425px) {
+        left: -28%;
+        top: -4.7%;
+      }
+    }
+
+    .connector__right {
+      top: -196px;
+      right: -25%;
+
+      @media only screen and (max-width: 425px) {
+        top: -4.4%;
+        right: 4%;
+      }
+    }
+  }
+}

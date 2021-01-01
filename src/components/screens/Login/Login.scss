@@ -1,0 +1,181 @@
+.login {
+  background: rgba(13, 114, 236, 0.8);
+  // z-index: -1000;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.login-modal {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 3px 3px 5px 5px #b0c2cd,-3px -3px 5px 5px #b0c2cd;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  display: none;
+}
+.l-m-heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.7rem;
+  color: black;
+  text-align: center; 
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+.l-m-form {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 70%;
+}
+.l-m-s-btn {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  display: block;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.l-m-desc{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px!important;
+  color: black;
+  span {
+    color: rgba(13, 114, 236, 0.8);
+  }
+}
+//
+.l-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4rem;
+  padding: 2rem 0;
+}
+.back-home {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: #ffffff;
+  margin-left: 1rem;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.l-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+.l-card {
+  margin-top: 10rem;
+  text-align: center;
+  height: 30rem;
+}
+.teachers,
+.students {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  width: 462px;
+  height: 206px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.students {
+  margin-left: auto;
+}
+/* .students::after {
+  content: "";
+  margin-left: 80px;
+  height: 500px;
+  width: 4px;
+  background-color: red;
+} */
+.teachers {
+  margin-right: auto;
+}
+
+.l-c-student-img {
+  margin: 20px;
+  img {
+    height: 173px;
+    width: 144px;
+  }
+}
+.l-c-teacher-img {
+  margin: 20px;
+  img {
+    height: 167px;
+    width: 123px;
+  }
+}.l-c-text {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.l-c-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.l-c-btn {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  background: #00f9bd;
+  border-radius: 12px;
+  width: 170px;
+  height: 49px;
+  border: none;
+}
+//
+  .students:hover {
+    background-color: #FFB0FF;
+    .l-c-student-img {
+      img {
+        transform: scale(1.25);
+        transform-origin: left bottom;
+      }
+    }
+  }
+  .teachers:hover {
+    background-color: #FAD19E;
+    .l-c-teacher-img {
+      img {
+        transform: scale(1.25);
+        transform-origin: left bottom;
+      }
+    }
+  }
+//
+.verify_button {
+      background-color: #48a7d4;
+      color: #fff;
+      padding: 9px 25px;
+      border-radius: 8px;
+      font-size: 20px;
+      margin-right: 25px;
+      font-weight: bold;
+
+      @media only screen and (max-width: 425px) {
+        font-size: 12px;
+      }
+    }

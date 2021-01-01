@@ -1,0 +1,450 @@
+form {
+  height: 100%;
+}
+
+.booking_popup {
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+
+  > * {
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    font-size: 2rem;
+  }
+
+  .booking_details {
+    display: flex;
+    flex-wrap: wrap;
+
+    .dx-placeholder {
+      color: #000000;
+    }
+
+    .parent_Name {
+      flex-wrap: nowrap;
+      width: 100%;
+      flex-basis: auto;
+    }
+
+    > * {
+      flex-basis: 300px;
+      flex-shrink: 1;
+      flex-grow: 1;
+      margin: 10px;
+      padding: 3px 0;
+      background-color: #f0f2f5;
+      color: #000000;
+    }
+  }
+
+  .schedule_button {
+    background-color: #48a7d4;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 50px;
+  }
+
+  .have__laptop {
+    display: flex;
+    > * {
+      margin-right: 15px;
+    }
+  }
+}
+
+.book_trail__route {
+  position: relative;
+  background-color: #00b4db;
+  color: #000000;
+  text-align: center;
+  padding: 35% 0;
+
+  @media only screen and (max-width: 425px) {
+    padding: 80% 0;
+  }
+
+  .logo {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+
+    @media only screen and (max-width: 425px) {
+      top: 2%;
+      left: 30%;
+    }
+
+    img {
+      width: 140px;
+    }
+  }
+
+  .bookatrail__popover {
+    margin: 0 5%;
+    box-shadow: 2px 2px 5px 4px #b0c2cd;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    width: 90%;
+    top: 15%;
+
+    > * {
+      margin: 20px 0;
+    }
+
+    h5 {
+      font-size: 2.5rem;
+
+      @media only screen and (max-width: 425px) {
+        font-size: 1.2rem;
+      }
+    }
+
+    .bookatrail__body {
+      display: flex;
+      width: 100%;
+
+      .details_section {
+        flex: 1;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        @media only screen and (max-width: 425px) {
+          margin-top: 0;
+        }
+
+        .field__value {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 2%;
+
+          .label {
+            text-align: start;
+            font-size: 17px;
+            font-weight: 500;
+          }
+
+          > * {
+            margin-bottom: 4px;
+          }
+        }
+
+        .booking_details {
+          width: 100%;
+          padding-right: 26%;
+
+          @media only screen and (max-width: 425px) {
+            padding: 0 6%;
+          }
+          .dx-textbox {
+            border: 2px solid #aeaeae;
+            border-radius: 6px;
+          }
+
+          .dx-state-focused {
+            border: 2px solid #48a7d4;
+          }
+
+          .dx-texteditor-input {
+            padding: 9px;
+
+            @media only screen and (max-width: 425px) {
+              padding: 0 5px;
+            }
+          }
+          .dx-placeholder {
+            font-size: 10px;
+          }
+
+          .students__grades {
+            display: flex;
+            flex-wrap: wrap;
+
+            .grade {
+              cursor: pointer;
+              padding-top: 10px;
+              border: 2px solid #aeaeae;
+              border-radius: 7px;
+              margin: 10px;
+              height: 40px;
+              width: 48px;
+              font-weight: bold;
+              font-size: 13px;
+              padding-right: 5px;
+
+              @media only screen and (max-width: 425px) {
+                margin: 10px 0 10px 7px;
+                height: 40px;
+                width: 14%;
+              }
+
+              &.selected {
+                background-color: #48a7d4;
+                color: #fff;
+                border: 1px solid #48a7d4;
+              }
+            }
+
+            span {
+              font-size: 10px;
+              position: absolute;
+              font-weight: 500;
+              pointer-events: none;
+              cursor: default;
+              text-decoration: none;
+            }
+          }
+        }
+
+        .laptop__section {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          font-weight: 500;
+
+          @media only screen and (max-width: 425px) {
+            padding: 0 6%;
+            font-size: 12px;
+          }
+
+          .have__laptop {
+            margin-bottom: 20px;
+
+            .dx-radiobutton-icon-dot {
+              background: #5db11d;
+            }
+          }
+
+          .schedule_button {
+            background-color: #48a7d4;
+            color: #fff;
+            border-radius: 10px;
+            padding: 2% 9%;
+            margin-bottom: 2%;
+            font-size: 1.2rem;
+
+            @media only screen and (max-width: 320px) {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+      .bookatrail__animation {
+        flex: 1;
+      }
+    }
+  }
+
+  .contact__div {
+    position: relative;
+    display: flex;
+
+    .countries_dropdown {
+      flex: 2;
+      @media only screen and (max-width: 425px) {
+        flex:3;
+      }
+    }
+
+    #parentNumber {
+      flex: 8;
+      margin-left: 15px;
+    }
+  }
+}
+
+.description_part {
+  display: flex;
+  flex-direction: column;
+  background-color: #d3eaf7;
+  color: #000000;
+  text-align: center;
+  padding-top: 10%;
+
+  @media only screen and (min-width: 320px) and (max-width: 425px) {
+    padding-top: 70%;
+  }
+
+  @media only screen and (max-width: 320px) {
+    padding-top: 120%;
+  }
+
+  h5 {
+    font-size: 2rem;
+
+    @media only screen and (max-width: 425px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  .description__section {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    
+
+    .img__section {
+      flex-basis: 500px;
+      display: flex;
+      margin: 20px 0;
+      border: 2.5px solid #1BBBDE;
+      // padding: 20px 0;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-left: 50px;
+      // margin-right: 5px;
+      margin-left: 30px;
+      border-radius: 25px;
+      background-color: #fff;
+      margin-right: 10px;
+
+      @media only screen and (max-width: 425px) {
+        margin: 10px;
+      }
+
+      img {
+        width: 20%;
+        margin-right: 20px;
+        @media only screen and (max-width: 425px) {
+          margin: 10px;
+        }
+      }
+
+      .description {
+        margin-left: 5px;
+        margin-top: 10px;
+      }
+    }
+    h5 {
+      font-size: 18px;
+      text-align: left;
+      @media only screen and (max-width: 425px) {
+        font-size: 1rem;
+      }
+    }
+    p {
+      font-size: 16px;
+      text-align: left;
+      max-width: 260px;
+    }
+
+    @media only screen and (max-width: 425px) {
+      p {
+        font-size: 12px;
+        font-weight: 500;
+        
+      }
+    }
+  }
+}
+
+.countries_dropdown {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #aeaeae;
+  height: 40px;
+
+  .flag {
+    width: 65%;
+    padding: 10px;
+  }
+
+  .dropdown_menu {
+    background-color: #fff;
+    color: #000000;
+    position: absolute;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    z-index: 1;
+    top: 41px;
+
+    .menu__item {
+      display: flex;
+      padding: 8px 5px;
+      font-size: 1rem;
+      align-items: center;
+      width: 100%;
+
+      > * {
+        margin-right: 5px;
+      }
+
+      .code {
+        color: #797272;
+      }
+
+      .flag_menu {
+        width: 5%;
+      }
+    }
+
+    &.show {
+      display: block;
+    }
+
+    &.hide {
+      display: none;
+    }
+  }
+}
+
+.second_div {
+  background-color: #fff;
+}
+
+.custom-item {
+  position: relative;
+  min-height: 30px;
+}
+
+.dx-dropdowneditor-input-wrapper .custom-item > img {
+  padding-left: 8px;
+}
+
+.custom-item .product-name {
+  display: inline-block;
+  padding-left: 50px;
+  text-indent: 0;
+  line-height: 30px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.custom-item > img {
+  height: 25px;
+  width: 40px;
+  left: 1px;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.dx-theme-material #custom-templates .dx-texteditor-buttons-container {
+  display: none;
+}
+
+.current-value {
+  padding: 10px 0;
+}
+
+.current-value > span {
+  font-weight: bold;
+}
+
+.dx-theme-material .dx-selectbox-container .product-name {
+  padding-left: 58px;
+}

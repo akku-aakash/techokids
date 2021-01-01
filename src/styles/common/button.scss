@@ -1,0 +1,22 @@
+.dx-button {
+  padding: 10px 15px;
+  border-radius: 19px;
+  border: 0;
+  font-weight: 500;
+  background-color: #fff;
+
+  &.dx-button-normal {
+    // background-color: darken($color-bg-gray, 5%);
+
+    color: #fff;
+  }
+  &.dx-button-success {
+    background-color: #fff;
+    color: #5DB11D;
+  }
+  &.dx-button-success:hover{
+      color: #fff;
+      background-color: #5DB11D;
+    } 
+
+  }

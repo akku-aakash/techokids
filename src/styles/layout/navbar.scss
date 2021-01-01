@@ -1,0 +1,51 @@
+.ama_navbar {
+  height: 100%;
+
+  .toolbar {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .close {
+    display: none;
+  }
+}
+
+.dx-overlay-content {
+  .list {
+    height: 100%;
+  }
+
+  .dx-scrollable-content {
+    background-color: #fff;
+    border: 1px solid $color-bg-gray;
+    .dx-item.dx-list-item {
+      border-top: 0;
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: $color-font;
+        i {
+          padding: 0 10px;
+        }
+      }
+    }
+    .dx-list-item.dx-state-focused,.dx-list-item.dx-state-active {
+        background-color: darken($color-bg-gray,10%);
+    }
+  }
+}
+
+.options {
+  padding: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+}

@@ -1,0 +1,664 @@
+
+/* h1{
+  line-height: 2;
+  font-size: 3.8rem;
+  font-weight: 600;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2{
+  font-size: 2rem;
+  font-family: 'Merriweather Sans';
+}
+
+h3{
+  line-height: 2;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+p {
+  line-height: 2;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+} */
+
+.container-fluid1{
+  padding: 7.7rem 7.7rem;
+}
+
+.image1{
+  width: 100%;
+}
+
+#image1{
+  display: none;
+}
+
+.container-fluid2{
+  padding: 2rem;
+  padding:0 7rem;
+  margin:0 4rem;
+}
+
+.extra{
+  padding: 0 3rem;
+}
+
+.login1{
+  padding: 0 auto;
+  text-align: center;
+}
+
+.button {
+  background-color: #20a525;
+  width:25rem; 
+  height: 6rem;
+  border: none;
+  outline: none;
+  box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 0.9rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 1.7rem 0.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button4 {border-radius: 12px;}
+
+.login3{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 97%;
+  padding:0 0.5rem;
+  padding-top: 4rem;
+}
+
+.container-fluid3{
+  padding: 2rem;
+  padding: 10rem 7rem;
+  margin: 0 4rem;
+}
+
+.container-fluid3 h1{
+  text-align: center;
+}
+
+.skills-grid{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.skill-row{
+  height: 40rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 3rem;
+}
+.image3 {
+  width: 16rem;
+  float: left;
+  margin: 0 4rem;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.info h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.info p{
+  font-size: 1.8rem;
+}
+
+.nav-pills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3rem;
+}
+ 
+.nav-link {
+  font-weight: 600;
+  border: 0.2rem solid #00B4DB;
+  background-color: #00B4DB;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: none;
+  margin: 0 6rem;
+  width: 20rem;
+  color: white;
+  border-radius: px;
+  height: 50px;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 0px 9px 17px rgba(0, 0, 0, 0.3);
+}
+
+.container-fluid5{
+  width: 90%;
+  padding:0 12rem;
+  margin: 13rem 0;
+}
+
+.container-fluid5 h1{
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.container-fluid5 ol li{
+  font-size: 1.6rem;
+}
+
+#faqs{
+  display: none;
+}
+
+@media screen and (max-width: 969px){
+  .container-fluid1{
+    padding: 6rem 7.7rem;
+  }
+
+  .button {
+    width:18rem; 
+    height: 6rem;
+    font-size: 2rem;
+    margin: 1.7rem 0.2rem;
+  }
+
+  /* h1{
+    line-height: 2;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Merriweather Sans', sans-serif;
+  } */
+  
+  h2{
+    font-size: 2rem !important;
+    font-family: 'Merriweather Sans';
+  }
+  
+  h3{
+    line-height: 2;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+  
+  p {
+    line-height: 2;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem !important;
+  }
+
+  .nav-pills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+  }
+
+  .nav-link {
+    margin: 0 4rem;
+    width: 20rem;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .container-fluid5{
+    width: 90%;
+    padding:0 8rem;
+    margin: 10rem 0;
+  }
+
+}
+
+@media screen and (max-width: 1087px){
+  .login3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 auto;
+  }
+
+  .extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login3 img{
+    margin-top: 4rem;
+  }.image2{
+    width: 30rem;
+  }
+
+}
+
+@media screen and (max-width: 817px){
+  .container-fluid1{
+    padding: 4rem 7.7rem;
+  }
+
+  .button {
+    width:13rem; 
+    height: 4rem;
+    font-size: 1.5rem;
+    margin: 1.7rem 0.2rem;
+  }
+
+  /* h1{
+    line-height: 2;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Merriweather Sans', sans-serif;
+  } */
+  
+  h2{
+    font-size: 1.5rem !important;
+    font-family: 'Merriweather Sans';
+  }
+  
+  h3{
+    line-height: 2;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 200;
+  }
+  
+  p {
+    line-height: 2;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  .image2{
+    width: 20rem;
+  }
+
+  .nav-pills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+  }
+
+  .nav-link {
+    margin: 0 4rem;
+    width: 15rem;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .container-fluid1{
+    padding: 5rem 5rem;
+  }
+
+  .container-fluid5{
+    width: 90%;
+    padding:0 5rem;
+    margin: 8rem 0;
+  }
+
+
+}
+
+@media screen and (max-width: 770px){
+  
+  .skill-row{
+    height: 30rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3rem;
+  }
+  .image3 {
+    width: 16rem;
+    float: left;
+    margin: 0 4rem;
+  }
+
+  .nav-pills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7rem;
+  }
+
+  .nav-link {
+    margin: 0 4rem;
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .container-fluid5 h1{
+    font-size: 3.4rem !important;
+  }
+
+  .container-fluid1{
+    padding: 2rem 2rem;
+  }
+
+  .container-fluid5{
+    width: 90%;
+    padding:0 3rem;
+    margin: 8rem 0;
+  }
+
+  .login1 h1{
+    font-size: 3rem;
+  }
+
+}
+
+@media screen and (max-width: 663px){
+  .container-fluid5 h1{
+    font-size: 2.4rem !important;
+  }
+
+  .container-fluid5 ol li{
+    font-size: 1.4rem !important;
+  }
+  .login1 h1{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 567px){
+  
+  .login1 h1{
+    font-size: 2rem;
+  }
+
+  .extra h3{
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 525px){
+
+  /* h1{
+    line-height: 2;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Merriweather Sans', sans-serif;
+  } */
+
+  .container-fluid3{
+    padding: 2rem;
+    padding: 6rem 7rem;
+    margin: 0 4rem;
+  }
+
+  .image2{
+    width: 15rem !important;
+  }
+
+  .container-fluid1{
+    padding: 1.2rem 1.2rem;
+  }
+
+  .container-fluid5 h1{
+    font-size: 2.4rem !important;
+  }
+
+  .container-fluid5 ol li{
+    font-size: 1.4rem !important;
+  }
+
+  .nav-pills{
+    padding-top: 2rem;
+  }
+
+    .nav-link {
+      margin: 0 4rem;
+      width: 12rem;
+      height: 4rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+  #image1{
+    display: block;
+  }
+
+  #image2{
+    display: none;
+  }
+
+  .skills-grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 0rem;
+  }
+
+  .skill-row{
+    height: 25rem;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3rem;
+  }
+
+  .image3 {
+    width: 10rem;
+    float: left;
+    margin: 0 4rem;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .info h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  
+  .info p{
+    font-size: 1.3rem !important;
+  }
+  .login1 h1{
+    font-size: 1.8rem;
+  }
+  .extra h3{
+    font-size: 1.4rem;
+  }
+
+}
+@media screen and (max-width: 470px){
+  .login1 h1{
+    font-size: 1.5rem;
+  }
+  .extra h3{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 440px){
+
+  .skills-grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 0rem;
+  }
+
+  .skill-row{
+    height: 25rem;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3rem;
+  }
+
+  .image3 {
+    width: 10rem;
+    float: left;
+    margin: 0 4rem;
+  }
+
+  .container-fluid2{
+    padding: 0.4rem;
+    padding:0 4rem;
+    margin:0 4rem;
+  }
+  
+  .extra{
+    padding: 0 3rem;
+  }
+  
+  .login1{
+    padding: 0 auto;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #20a525;
+    width:10rem; 
+    height: 4rem;
+    border: none;
+    color: white;
+    padding: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 1.7rem 0.2rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .button4 {border-radius: 12px;}
+  
+  .login3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    padding:0 0.5rem;
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 370px){
+  .skills-grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-gap: 0rem;
+  }
+
+  .skill-row{
+    height: 25rem;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3rem;
+  }
+
+  .image3 {
+    width: 10rem;
+    float: left;
+    margin: 0 4rem;
+  }
+
+  .container-fluid2{
+    padding: 0.4rem;
+    padding:0 4rem;
+    margin:0 4rem;
+  }
+  
+  .extra{
+    padding: 0 3rem;
+  }
+  
+  .login1{
+    padding: 0 auto;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #20a525;
+    width:10rem; 
+    height: 4rem;
+    border: none;
+    color: white;
+    padding: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 1.7rem 0.2rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .button4 {border-radius: 12px;}
+  
+  .login3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    padding:0 0.5rem;
+    padding-top: 4rem;
+  }
+
+  .login1 h1{
+    font-size: 1.3rem;
+  }
+  .extra h3{
+    font-size: 1rem;
+  }
+}

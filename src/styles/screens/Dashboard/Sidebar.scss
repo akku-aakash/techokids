@@ -1,0 +1,43 @@
+.sidebar {
+    padding-top: 10px;
+    position: fixed;
+    // top: 0;
+    // left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00B4DB;
+    // box-shadow: 4px 0 4px rgba(0, 0, 0, 0.3);
+    padding-left: 15px;
+    .brand-logo {
+        padding: 20px 10px 0px 30px;
+        width: 163px;
+        height: 46px;
+    }
+    .brand-logo:nth-child(2) {
+        display: none;
+    }
+    ul {
+        list-style: none;
+        padding-left: 15px;
+        .bar {
+            cursor: pointer;
+            margin-left: 15px;
+            margin-bottom: 40px;
+            .bar-img {
+                height: 40px;
+                width: 40px;
+            }
+            .bar-text {
+                margin-left: 10px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+
+                color: #FFFFFF;
+            }
+        }
+        
+    }
+}

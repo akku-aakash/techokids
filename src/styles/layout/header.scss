@@ -1,0 +1,160 @@
+.header_panel {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4% 0;
+  cursor: pointer;
+}
+
+.dx-menu-item {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-right: 15px;
+}
+
+// .dx-context-menu-container-border{
+//   background-color: transparent !important;
+//   border: none;
+  
+// }
+
+.dx-submenu {
+  border-radius: 5px;
+  margin-top: 5px;
+  .dx-menu-item {
+    color: #000000;
+  }
+}
+
+.dx-menu-item-wrapper {
+  margin: 0 10px;
+}
+
+.dx-button-normal.login_btn {
+  background-color: #007cb2;
+  border: 0;
+}
+
+.header_leftPanel {
+  img {
+    width: 140px;
+  }
+}
+
+.header_middlePanel {
+  padding-top: 10px;
+}
+
+.header_rightPanel {
+  > * {
+    margin: 0 10px;
+  }
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* this is optional and should be different for every project */
+}
+
+.sticky-wrapper {
+  position: relative;
+  height: 1rem; /* We need to change this value */
+}
+
+.sticky {
+  .sticky-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 2px 2px 5px 4px #b0c2cd;
+  }
+
+  .header_panel {
+    padding: 1.2% 0;
+    
+  }
+
+ /*  .dx-button.dx-button-success {
+    background-color: #5db11d;
+    color: #fff !important;
+    
+  }
+ */
+  .logo {
+    img {
+      color: green;
+    }
+  }
+
+  .dx-menu-item {
+    color: #000000;
+  }
+}
+
+.navbar {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  background-color: #eeeeee;
+}
+.header__mobile {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4% 0;
+
+  .threedotmenu {
+    text-align: start;
+    padding-left: 20px;
+    img {
+      width: 30%;
+    }
+  }
+  .logo_mobile {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+.mobile__menu {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  background-color: #00a4cc;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  .cross_iconDiv {
+    padding: 8%;
+    .crossicon {
+      width: 10%;
+    }
+  }
+
+  .dx-menu-base {
+    font-weight: bold;
+    font-size: 4.5rem;
+    .dx-menu-item {
+      color: #fff !important;
+    }
+  }
+}
