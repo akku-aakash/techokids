@@ -16,7 +16,7 @@ import Login from "../screens/Login/Login";
 import PrivacyPolicy from "../screens/PrivacyPolicy/PrivacyPolicy";
 import TermsCondi from "../screens/TermsCondi/TermsCondi";
 import BookYourDate from "../screens/BookYourDate/BookYourDate";
-import RefEarnScreen from "../screens/RefEarn/RefEarnScreen/RefEarn"
+import RefEarnScreen from "../screens/RefEarn/ReferEarn"
 import HelpFaq from "../screens/Help and FAQ/HelpFaq"
 const RouteWithSubRoutes = (route) => {
   return (
