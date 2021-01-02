@@ -198,7 +198,7 @@ function HelpFaq() {
                             </div>
                             <hr style={{borderTop: "1px  solid black !important"}}></hr>
                     </div>
-                    <div className="ques about-techoKids">
+                    <div className="ques teachers">
                         <h2 className="heading">TechoKids' Live Classes </h2>
                         <div className="quesus">
                             <div className="grid-ques first">
