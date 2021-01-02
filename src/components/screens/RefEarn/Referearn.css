@@ -1,0 +1,176 @@
+.home-header {
+  background-color: #00b4db;
+  padding: 1em;
+  font-size: 2em;
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  padding: 0 7%;
+  text-align: left;
+}
+
+p {
+  font-weight: 450;
+}
+
+.content-info {
+  margin: 5% 0;
+  margin-bottom: 10%;
+}
+
+.content-info h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.content-info li {
+  list-style: none;
+  padding: none;
+  margin: none;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.footer-book {
+  position: absolute;
+  width: 80%;
+  background: linear-gradient(to right, #3199ee, #3199ee);
+  height: 300px;
+  margin-top: -200px;
+  border-radius: 2em;
+}
+
+.button-group {
+  text-align: center;
+  margin: 0 auto 3em;
+  width: max-content;
+  border: 2px solid #00B4DB;
+  border-radius: 12px;
+  display: flex;
+  height: 45px;
+}
+
+.button-group button {
+  background-color: inherit;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  font-size: 24px;
+  color: black;
+  border-collapse: collapse;
+  outline: none;
+}
+
+.button-group button:hover {
+  background-color: #00b4db;
+  color: white;
+  transition: 0.2s ease-in-out all;
+}
+
+#tc {
+  background-color: #00b4db;
+  color: white;
+}
+
+#invite-login-div p {
+  margin: 5% 0;
+  font-size: 28px !important;
+}
+
+.works-list {
+  display: flex;
+  margin: 3% 0;
+  align-items: center;
+}
+
+.works-list h2 {
+  font-weight: 600;
+}
+
+#login {
+  background-color: #5db11d;
+  text-transform: uppercase;
+  border-radius: 8px;
+  width: 300px;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  color: white;
+  box-shadow: 2px 2px 10px #5db11d ;
+}
+
+.TNC h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 1em 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    padding: 0 3%;
+  }
+
+  .content-info {
+    margin: 2%;
+    margin-bottom: 50px;
+  }
+
+  #invite-login-div p {
+    margin: 0;
+    font-size: 16px !important;
+  }
+
+  #login {
+    width: 180px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  #gift {
+    display: none;
+  }
+
+  .content-info {
+    font-size: 0.7em;
+  }
+
+  .content-info h1 {
+    font-size: 2em;
+  }
+
+  #tnc {
+    font-size: 0.8em;
+  }
+
+  .button-group button {
+    width: 100px;
+  }
+
+  .works-list {
+    margin: 20px 0;
+  }
+
+  .works-list img {
+    width: 70px !important;
+  }
+
+  .works-list h2, .works-list p {
+    font-size: 16px !important;
+  }
+
+  .TNC h2 {
+    font-size: 1.5em;
+  }
+}
