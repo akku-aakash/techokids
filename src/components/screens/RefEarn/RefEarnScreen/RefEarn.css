@@ -25,7 +25,8 @@ p {
 } */
 
 .container-fluid1{
-  padding: 7.7rem 7.7rem;
+  padding: 5%;
+  padding-bottom: 0;
 }
 
 .image1{
@@ -158,18 +159,24 @@ p {
 }
 
 .container-fluid5{
-  width: 90%;
-  padding:0 12rem;
-  margin: 13rem 0;
+  width: 100%;
+  padding: 2% 10%;
 }
 
 .container-fluid5 h1{
-  font-size: 4rem;
-  font-weight: 600;
+  font-size: 2.5em !important;
+  font-weight: bold;
+  margin: 3% 0;
 }
 
 .container-fluid5 ol li{
-  font-size: 1.6rem;
+  font-size: 1.5em !important;
+  margin: 1em 0;
+}
+
+.container-fluid5 ol {
+  margin: 0 !important;
+  padding: 0 20px !important;
 }
 
 #faqs{
@@ -229,9 +236,8 @@ p {
   }
 
   .container-fluid5{
-    width: 90%;
-    padding:0 8rem;
-    margin: 10rem 0;
+    width: 100%;
+  padding: 2% 10%;
   }
 
 }
@@ -320,9 +326,8 @@ p {
   }
 
   .container-fluid5{
-    width: 90%;
-    padding:0 5rem;
-    margin: 8rem 0;
+    width: 100%;
+  padding: 2% 10%;
   }
 
 
@@ -362,7 +367,7 @@ p {
   }
 
   .container-fluid5 h1{
-    font-size: 3.4rem !important;
+    font-size: 18px !important;
   }
 
   .container-fluid1{
@@ -370,9 +375,8 @@ p {
   }
 
   .container-fluid5{
-    width: 90%;
-    padding:0 3rem;
-    margin: 8rem 0;
+    width: 100%;
+  padding: 2% 5%;
   }
 
   .login1 h1{
@@ -383,11 +387,11 @@ p {
 
 @media screen and (max-width: 663px){
   .container-fluid5 h1{
-    font-size: 2.4rem !important;
+    font-size: 18px !important;
   }
 
   .container-fluid5 ol li{
-    font-size: 1.4rem !important;
+    font-size: 16px !important;
   }
   .login1 h1{
     font-size: 2.5rem;
@@ -429,11 +433,11 @@ p {
   }
 
   .container-fluid5 h1{
-    font-size: 2.4rem !important;
+    font-size: 18px !important;
   }
 
   .container-fluid5 ol li{
-    font-size: 1.4rem !important;
+    font-size: 16px !important;
   }
 
   .nav-pills{
@@ -660,5 +664,52 @@ p {
   }
   .extra h3{
     font-size: 1rem;
+  }
+}
+
+
+/* machine */
+
+.button-group {
+  text-align: center;
+  margin: 0 auto 1em;
+  width: max-content;
+  border: 2px solid #00B4DB;
+  border-radius: 12px;
+  display: flex;
+  height: 45px;
+}
+
+.button-group button {
+  background-color: inherit;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  border: none;
+  font-size: 24px;
+  color: black;
+  border-collapse: collapse;
+  outline: none;
+}
+
+.button-group button:hover {
+  background-color: #00b4db;
+  color: white;
+  transition: 0.2s ease-in-out all;
+}
+
+#tc {
+  background-color: #00b4db;
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .tnc h1 {
+    font-size: 18px !important ;
+  }
+
+  .tnc ol li {
+    font-size: 16px !important ;
   }
 }
