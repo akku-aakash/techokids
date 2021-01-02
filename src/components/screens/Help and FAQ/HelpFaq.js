@@ -78,7 +78,7 @@ function HelpFaq() {
                                 <p>TechoKids Private Limited is an online coding platform for kids from age 6 to 18 years. We provide live lessons for kids to connect them with leading teachers worldwide through 1:1 online classes. Our vision is to create a generation of young programmers and Tech Entrepreneurs who would create exciting and brilliant applications, websites, games, and more. </p>
                             </div>
                         </div>
-                        <hr></hr>
+                        <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus1">
                                 <div className="grid-ques">
                                     <h2>( B ) Why should my child subscribe TechoKids?</h2>
@@ -88,7 +88,7 @@ function HelpFaq() {
                                     <p>Students demand 1:1  contact with an accomplished instructor to lead them, immersive content to sustain a dedication, and a customized forum to maximize outcomes for the best learning experience. Each platform comes with its visions and policies. However, TechoKids offers an engaging and enjoyable curriculum, self-paced online courses to learn coding in the comfort of their home.  </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( C ) What does a week at TechoKids look like?</h2>
@@ -98,7 +98,7 @@ function HelpFaq() {
                                     <p>A week at TechoKids is fun, exciting, and filled with learning! Your child will have at least two but not more than seven classes a week - Our coding classes are flexible. TechoKids is the perfect versatile solution to continue your child's learning outside of school to make sure they keep engaged and busy. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( D ) What makes TechoKids different from every other 
@@ -109,7 +109,7 @@ function HelpFaq() {
                                     <p>A week at TechoKids is fun, exciting, and filled with learning! Your child will have at least two but not more than seven classes a week - Our coding classes are flexible. TechoKids is the perfect versatile solution to continue your child's learning outside of school to make sure they keep engaged and busy. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                     </div>
                     <div className="ques techoKids-live-classes">
                         <h2 className="heading">TechoKids' Live Classes </h2>
@@ -122,7 +122,7 @@ function HelpFaq() {
                                 <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                             </div>
                         </div>
-                        <hr></hr>
+                        <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( B ) What is the frequency of TechoKids Online Classes? </h2>
@@ -132,7 +132,7 @@ function HelpFaq() {
                                     <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( C ) What are the systems requirements to attend            
@@ -143,7 +143,7 @@ function HelpFaq() {
                                     <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( D ) Will my child get 1:1 Online Classes or in a batch with         
@@ -154,7 +154,7 @@ function HelpFaq() {
                                     <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( E ) Can my child reschedule a class if he/she misses it? </h2>
@@ -164,7 +164,7 @@ function HelpFaq() {
                                     <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( F ) Can we download TechoKids Online Classes?</h2>
@@ -174,7 +174,7 @@ function HelpFaq() {
                                     <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( G ) Can we schedule TechoKids Class Timings as per    
@@ -185,7 +185,7 @@ function HelpFaq() {
                                     <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( H ) Is my child going to get homework? How are 
@@ -196,9 +196,9 @@ function HelpFaq() {
                                     <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                     </div>
-                    <div className="ques teachers">
+                    <div className="ques about-techoKids">
                         <h2 className="heading">TechoKids' Live Classes </h2>
                         <div className="quesus">
                             <div className="grid-ques first">
@@ -209,7 +209,7 @@ function HelpFaq() {
                                 <p>Our teachers go through intense scrutiny for hiring & training, designed to ensure that kids' interest, curiosity & outcome-based learning are top-notch. Our process is challenging; it's a highly rigorous selection process; out of 100, we end up selecting one faculty and add to our population of hand-picked teachers. </p>
                             </div>
                         </div>
-                        <hr></hr>
+                        <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( B ) What if my child doesn't like his personal tutor? </h2>
@@ -219,7 +219,7 @@ function HelpFaq() {
                                     <p>We are confident that your child would find a teacher that they would love. TechoKids tutors are excellent providing a friendly and welcoming atmosphere. It might happen that they may not like their mentor. In such cases, please contact the academic advisor, and they will assist you further in giving another teacher.</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( C ) Will my child have different tutors for different 
@@ -230,7 +230,7 @@ function HelpFaq() {
                                     <p>Our teachers are highly qualified and trained to teach several subjects. You may have the same teacher for various topics, or you may have different teachers! You can always request a change in case of a mentor you don't like or like - undoubtedly, and our teachers would try their best to support your child in every way possible.</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( D ) How will you ensure that the student likes the 
@@ -241,7 +241,7 @@ function HelpFaq() {
                                     <p>We believe that student-teacher rapport can transform the coding journey, and therefore the students are asked for feedback on the mentor to ensure that they are happy with them. Parents can contact the relationship manager for feedback or queries related to the mentor. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( E ) Is the teacher who conducted the trial class going to 
@@ -252,7 +252,7 @@ function HelpFaq() {
                                     <p>All our teachers are highly qualified and seasoned in the subjects they provide the class with. The teacher assigned to your ward would depend on their interactions, learning patterns, which would measure your child's personality and learning requirements and, in the end, matching them to the best guide.</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                     </div>
                     <div className="ques courses">
                         <h2 className="heading">TechoKids' Live Classes </h2>
@@ -265,7 +265,7 @@ function HelpFaq() {
                                 <p>We currently offer 1:1 live online coding courses for different grades. We are continually adding new lessons, grades, and standards, so check back here for updates.</p>
                             </div>
                         </div>
-                        <hr></hr>
+                        <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( B ) How will you cover the concepts and doubts? </h2>
@@ -275,7 +275,7 @@ function HelpFaq() {
                                     <p>We ensure that students cover the same material/maybe more than the course contents. Students are encouraged to ask for doubts, which can be addressed during class. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( C ) Will the course cover the school curriculum and 
@@ -286,7 +286,7 @@ function HelpFaq() {
                                     <p>Yes! Our curriculum is fabricated using the school curriculum and a great list of text and reference books from multiple publishers. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( D ) How are lesson plans and questions designed? </h2>
@@ -296,7 +296,7 @@ function HelpFaq() {
                                     <p>Designed by Google, Amazon, IIT alumni, every lesson comprises HD animated videos, fun games, online quiz competitions in class to make your child fall in love with the subject</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( E ) Are printed study materials provided to 
@@ -307,7 +307,7 @@ function HelpFaq() {
                                     <p>Once a child uses TechoKids, all the resources they need, and more, are all on the platform. No need for any additional e-learning apps, question banks, practice tests, explanation videos. We have videos that cover all fundamental concepts and quizzes for our enrolled students!</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                     </div>
                     <div className="ques parent-teacher-meetings">
                         <h2 className="heading">TechoKids' Live Classes </h2>
@@ -320,7 +320,7 @@ function HelpFaq() {
                                 <p>Our classes are for 60 minutes long, to cover each topic in depth through explanations, videos, games, live quizzes, plus time for questions, support, and coaching from our courteous and seasoned mentors. </p>
                             </div>
                         </div>
-                        <hr></hr>
+                        <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( B ) How to book a PTM? </h2>
@@ -330,7 +330,7 @@ function HelpFaq() {
                                     <p>A PTM is a Parent-Teacher meeting that will take place between you and the mentor, which would be held in the live class sessions. The mentor would provide feedback on your child's performance and speak in detail about their requirements or their boons. They would talk about your child's weaknesses and strengths, as well. Accordingly, we at TechoKids can help best train them to become leaders in their fields of choice.</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( C ) I want to reschedule the PTM. Is it possible? </h2>
@@ -340,7 +340,7 @@ function HelpFaq() {
                                     <p>Unfortunately, you won't be able to reschedule the PTM. But no worries, the mentor would keep in touch with you for the next round of PTM to get detailed feedback about your child's performance. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                     </div>
                     <div className="ques signing-up-with-techokids">
                         <h2 className="heading">TechoKids' Live Classes </h2>
@@ -354,7 +354,7 @@ function HelpFaq() {
                                 <p>No worries about that either, as our team would get in touch with the official WhatsApp/SMS service. The pros of booking a class are that you would choose the language of your choice and the method of communication. Choose WhatsApp services to stay up-to-date.</p>
                             </div>
                         </div>
-                        <hr></hr>
+                        <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( B ) Once I subscribe to TechoKids, how will I be 
@@ -365,7 +365,7 @@ function HelpFaq() {
                                     <p>All you need is to subscribe to TechoKids, and the rest will be taken care of via WhatsApp and SMS. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( C ) How will I be informed about the details of the 
@@ -376,7 +376,7 @@ function HelpFaq() {
                                     <p>You will be informed about such details as soon as your child is assigned with a mentor and batch. You will receive a direct message with the chosen communication method, i.e., either WhatsApp/SMS. So, keep an eye over that.</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                     </div>
                     <div className="ques start-learning-with-techokids">
                         <h2 className="heading">TechoKids' Live Classes </h2>
@@ -396,7 +396,7 @@ Irresistible & Captivating Content: Designed by Google, Amazon, IIT alumni, ever
 Realistic Skills: TechoKids covers school curriculum AND helps build them inside out with skills like leadership, communication, creativity to curate a job giver and not a job seeker.</p>
                             </div>
                         </div>
-                        <hr></hr>
+                        <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( B ) Will TechoKids help my child with homework and 
@@ -408,7 +408,7 @@ Realistic Skills: TechoKids covers school curriculum AND helps build them inside
                                     <p>Our 1:1 student-teacher ratio allows your child enough time with the teacher to clarify doubts before the class ends.</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( C ) Coding For Your Child </h2>
@@ -418,7 +418,7 @@ Realistic Skills: TechoKids covers school curriculum AND helps build them inside
                                     <p>Whether you are interested in IT sectors and want to get through by qualification or want to get fascinated by the world of tech and coding courses, TechoKids offers a plethora of live coding courses to make coding reach out to kids and youngsters. Our guide answers some of the frequently asked questions from parents and students to help you understand the basics of our kids' programming courses cover. It would help you know whether you have made the right decision.  </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( D ) Are coding classes suitable for kids? </h2>
@@ -428,7 +428,7 @@ Realistic Skills: TechoKids covers school curriculum AND helps build them inside
                                     <p>Being a parent, we understand your concerns. All you need to do is explore the opportunities and trust the process. The benefits of such courses are not just for their careers but for navigating more options than you would ever know. TechoKids teaches coding for kids in programs designed to stimulate creativity, problem-solving skills, and academic performance overall.</p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( E ) When should my child start learning the subject? </h2>
@@ -438,7 +438,7 @@ Realistic Skills: TechoKids covers school curriculum AND helps build them inside
                                     <p>Kids as young as six years of age can start coding and learning programming basics—TechoKids aid your child produce apps, games, and animations. We focus on learning rather than making them train to code or become a consumer of the apps. Because they are oriented so that your kid gets the most concentration from the teachers. TechoKids makes sure that the kids get proper knowledge about what they are getting into by providing Live 1:1 lessons. TechoKids also provides interactions with International faculty to shape the child's interest in their field. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                             <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( F ) There are so many programming languages. Which 
@@ -450,7 +450,7 @@ Realistic Skills: TechoKids covers school curriculum AND helps build them inside
 Still looking out for other queries, Contact Us. </p>
                                 </div>
                             </div>
-                            <hr></hr>
+                            <hr style={{borderTop: "1px  solid black !important"}}></hr>
                     </div>
                 </div>
             </div>
