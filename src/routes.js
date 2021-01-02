@@ -4,7 +4,7 @@ import BOOKATRAIL from './components/screens/BookATrail'
 import ABOUTUS from './components/screens/AboutUs'
 import ThankYou from './components/common/thankyou';
 import {routeMappings} from './utils/routeMappings';
-
+import FAQ from './components/screens/Help and FAQ/HelpFaq'
 
 
 export const routes = [
@@ -27,5 +27,10 @@ export const routes = [
     path: routeMappings["THANKYOU"],
     exact: true,
     component: ThankYou,
+  },
+  {
+    path: routeMappings["HELP&FAQ"],
+    exact: true,
+    component: FAQ,
   }
 ];

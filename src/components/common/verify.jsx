@@ -23,7 +23,8 @@ const Verify = ({
 
   const history = useHistory();
 
-  const { parentPhone } = bookingDetails;
+  const { parentNumber } = bookingDetails;
+  console.log(bookingDetails)
 
   const OnVerify = (e) => {
     e.preventDefault();
@@ -88,7 +89,8 @@ const Verify = ({
             />
             <h5 className="header">Login with OTP </h5>
             <p className="sub_header">
-              We sent an SMS with OTP to +91xxxxxxxxxx.
+              {`We sent an SMS with OTP to +91${parentNumber
+                }.`}
             </p>
 
             <TextBox
