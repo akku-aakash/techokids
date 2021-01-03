@@ -20,16 +20,11 @@ function HelpFaq() {
         ele.style.display = "block";
         var changeImage = document.querySelectorAll(".show-ans");
         changeImage.forEach((image) => {
-            image.src = "../../../images/group.png";
+            image.src = banner;
         })
-        document.querySelector('.'+q.toString()).querySelector("." + r.toString()).src={banner2};
     }
 
     const handleShow = (name, flag) => {
-        if(flag === "true")
-          document.querySelector(".active").style.backgroundColor = "#00B4DB";
-        else
-        document.querySelector(".active").style.backgroundColor = "white";
 
         var divs = document.querySelectorAll(".ques");
         divs.forEach((div) => {
@@ -40,8 +35,10 @@ function HelpFaq() {
 
     return (
         <>
-        <Header className="header-m"/>
-        <div className="home">
+        <div className="home-header">
+          FAQs
+        </div>
+        <div className="faq-grids">
             <div className="grids">
                 <div className="left-grid">
                     <div><button className="grid-item active" onClick={() => handleShow("about-techoKids", "true")}>
@@ -69,7 +66,7 @@ function HelpFaq() {
                 <div className="right-grid">
                     <div className="ques about-techoKids">
                         <h2 className="heading">About TechoKids</h2>
-                        <div className="quesus1">
+                        <div className="quesus">
                             <div className="grid-ques first">
                                 <h2>( A ) What is TechoKids? </h2>
                                 <img onClick={() => handleClick("a", "about-techoKids", "imagea")} className="show-ans imagea" src={banner} alt="image" />
@@ -79,7 +76,7 @@ function HelpFaq() {
                             </div>
                         </div>
                         <hr></hr>
-                            <div className="quesus1">
+                            <div className="quesus">
                                 <div className="grid-ques">
                                     <h2>( B ) Why should my child subscribe TechoKids?</h2>
                                     <img onClick={() => handleClick("b", "about-techoKids", "imageb")} className="show-ans imageb" src={banner} alt="image" />
