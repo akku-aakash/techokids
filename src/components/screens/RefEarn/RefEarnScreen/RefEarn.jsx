@@ -3,34 +3,43 @@ import './RefEarn.css'
 import banner from '../../../../images/ref_earn/Banner_laptop.png'
 import bannerMobile from '../../../../images/ref_earn/Banner_mobile.png'
 import RefInvite from '../RefInvite/RefInvite'
+import Base from '../../../base/Base'
+
 function RefEarnScreen() {
   document.title = "Refer and Earn | TechoKids";
   const handleClickTC = () => {
     document.getElementById("terms").style.display = "block";
     document.getElementById("faqs").style.display = "none";
-    
+    document.getElementById("tc").style.backgroundColor = "#00b4db";
+    document.getElementById("tc").style.color = "white"
+    document.getElementById("faq").style.backgroundColor = "inherit";
+    document.getElementById("faq").style.color = "black"
   }
 
   const handleClickFAQ = () => {
     
     document.getElementById("terms").style.display="none";
     document.getElementById("faqs").style.display="block";
+    document.getElementById("tc").style.backgroundColor = "inherit";
+    document.getElementById("tc").style.color = "black"
+    document.getElementById("faq").style.backgroundColor = "#00b4db";
+    document.getElementById("faq").style.color = "white"
   }
   return (
     <div className="home">
+      
         <div className="container-fluid1">
-            <img id="image2" className="image1" src={banner}/>
-            <img id="image1" className="image1" src={bannerMobile} alt="Image-1"/>
+            <img src={ window.innerWidth <= 600 ? bannerMobile : banner } width="100%" />
         </div>
       <RefInvite />
       <div className="content">
-            <div className="nav-pills">
-              <button id="tc" onClick={handleClickTC} className="nav-link active">T&C</button>
-              <button id="faq" onClick={handleClickFAQ} className="nav-link">FAQs</button>
+            <div className="button-group">
+              <button id="tc" onClick={handleClickTC}>T&C</button>
+              <button id="faq" onClick={handleClickFAQ}>FAQs</button>
             </div>
         </div>
     
-        <div className="container-fluid5">
+        <div className="container-fluid5 tnc">
           <div id="terms">
             <h1>Terms and Conditions</h1>
             <ol>
@@ -53,11 +62,11 @@ function RefEarnScreen() {
             </ol>
           </div>
         </div>
-      <div className="container-fluid5">
+      <div className="container-fluid5 tnc">
 
         <div id="faqs">
           <h1>FAQs & Strategies for "Refer & Earn"</h1>
-          <ol>
+          <ol style={{listStyle: "none", padding: "none"}}>
             <li>Q.1. How can I refer? The student can invite/refer their friends: While booking their mention your name to TechoKids before hand. From the left table (Invite & win
             MacBook when you cross 10 referrals) From your school, neighbourhood, society or tuitions/coaching classes Once demo is booked share their number, name,
             email ID to TechoKids.</li>
@@ -93,6 +102,7 @@ function RefEarnScreen() {
           </ol>
         </div>
     </div>
+    <Base />
   </div>
   );
 }

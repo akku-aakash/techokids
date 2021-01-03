@@ -13,7 +13,7 @@
 .left-grid{
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
+  margin: 0 30px;
 }
 
 .grid-item{
@@ -124,7 +124,7 @@ hr{
     overflow: scroll;
     overflow-y: hidden;
   }
-
+  
   ::-webkit-scrollbar {
     display: none;
   }

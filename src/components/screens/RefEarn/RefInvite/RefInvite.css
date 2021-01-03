@@ -639,3 +639,96 @@
     }
   }
   
+/* machine */
+
+.content-info {
+  margin: 7% 10%;
+}
+
+#invite-login-div p {
+  margin: 5% 0;
+  font-size: 2em !important;
+}
+
+.content-info h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.content-info li {
+  list-style: none;
+  padding: none;
+  margin: none;
+}
+
+.works-list {
+  display: flex;
+  margin: 3% 0;
+  align-items: center;
+}
+
+.works-list h2 {
+  font-weight: 600;
+}
+
+#login {
+  background-color: #5db11d;
+  text-transform: uppercase;
+  border-radius: 8px;
+  width: 300px;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  color: white;
+  box-shadow: 2px 2px 10px #5db11d ;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-info {
+    margin: 5%;
+    margin-bottom: 50px;
+  }
+
+  #invite-login-div p {
+    margin: 0;
+    font-size: 16px !important;
+  }
+
+  #login {
+    width: 180px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+
+  #gift {
+    display: none;
+  }
+
+  .content-info {
+    font-size: 0.7em;
+  }
+
+  .content-info h1 {
+    font-size: 2em;
+  }
+
+  #tnc {
+    font-size: 0.8em;
+  }
+
+  .button-group button {
+    width: 100px;
+  }
+
+  .works-list {
+    margin: 20px 0;
+  }
+
+  .works-list img {
+    width: 70px !important;
+  }
+
+  .works-list h2, .works-list p {
+    font-size: 16px !important;
+  }
+} 
